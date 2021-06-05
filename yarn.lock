@@ -51,33 +51,46 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@banksean/patchcab-cvsequencer@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@banksean/patchcab-cvsequencer/-/patchcab-cvsequencer-0.0.1.tgz#d1fecb4fc094decfa326f9d178bb97a4c17f71d2"
-  integrity sha512-iYoWeg1vD9FK+Bw0tgSB6lZf8vWlcyr9/hM3cBjbhPZZGzZAmnAdF9AP1q6iUMaXywRGnF/bfHo1bX0uF4bhAQ==
+"@banksean/patchcab-additiveosc@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@banksean/patchcab-additiveosc/-/patchcab-additiveosc-0.1.2.tgz#6bcb046bd5d4e1abc17a4acbe601a0f636f2007c"
+  integrity sha512-2vWuu/BNW5NqLmYLfGPWCes9eWc/TyAy4GoH6BMkqJhepYaMN45LwlNpdRYAmtBifBCriV2NsUKAtCu1xpJvrQ==
   dependencies:
-    "@banksean/patchcab-ui" "^0.0.1"
+    "@banksean/patchcab-ui" "^0.1.2"
     "@patchcab/core" "^1.0.5"
+    ws "^7.4.6"
 
-"@banksean/patchcab-midiin@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@banksean/patchcab-midiin/-/patchcab-midiin-0.0.1.tgz#f8994a4db9c282945ec756fd67d6afdf070da531"
-  integrity sha512-wjKaPoN46LKwpQtumsSRBNrAyexjTyv4n64CIeJxkNkdR1pIh/aGz8ExxKBvAPyqzE9U0NjcNlssxnxaJKplhQ==
+"@banksean/patchcab-cvsequencer@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@banksean/patchcab-cvsequencer/-/patchcab-cvsequencer-0.1.2.tgz#c4e5b6985dc3b89105633f7e0de1fada50ad1018"
+  integrity sha512-1zoK0VKm9GBvj9Xpc2nUuAJZJTiF1BT5s5y6hQ6YdtjkVgjtfcaeWvr8qwv4XumBLjAzY6JEv2siG5xCrBxTow==
   dependencies:
-    "@banksean/patchcab-ui" "^0.0.1"
+    "@banksean/patchcab-ui" "^0.1.2"
     "@patchcab/core" "^1.0.5"
+    ws "^7.4.6"
 
-"@banksean/patchcab-polyrhythm@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@banksean/patchcab-polyrhythm/-/patchcab-polyrhythm-0.0.1.tgz#5743e44e3ae2abe3e0a4569d26d9d64e8036a26f"
-  integrity sha512-w7kbNI4QgjrGfcHuerYzdF0pR4lAmy3Y1W7CFAUrYJMJFXaiz+ghOoVM2Qp+vCL6Ro/Xx6xa80gC4Mk6H8k1EA==
+"@banksean/patchcab-midiin@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@banksean/patchcab-midiin/-/patchcab-midiin-0.1.2.tgz#a8a419ceec75bc29640bde4b02b94151b8eec3b7"
+  integrity sha512-jvDVLP8SRYkwf+E62jLiq+wsUC96srSvtwTID74oQx9cjYhQl5xdxkcM7yAqx7OVrpbCa/X6TGxxWSkiMT1ZCA==
   dependencies:
+    "@banksean/patchcab-ui" "^0.1.2"
     "@patchcab/core" "^1.0.5"
+    ws "^7.4.6"
 
-"@banksean/patchcab-ui@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@banksean/patchcab-ui/-/patchcab-ui-0.0.1.tgz#36de2fbef78ed5b63ae65558980ba6a762e303f8"
-  integrity sha512-Fxu24xLTpn8TQIXIdleWMfx8Gfi/yTZ89xiXXVK+Ac7IJxGOPDC1t0d6MYgHzzvHBQBGwoSmAZVTLFs22EPohA==
+"@banksean/patchcab-polyrhythm@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@banksean/patchcab-polyrhythm/-/patchcab-polyrhythm-0.1.2.tgz#37782533f2872aafc040ebfd060838bd7d0a1349"
+  integrity sha512-f4vnMNui/vO2iK+5W6ZBi03PxJAzrGxlymi2lXSxLXFfuHqkrPWk6ZG5vvtANyfbWf4BgFDuFBKMoVLG2zezmw==
+  dependencies:
+    "@banksean/patchcab-ui" "^0.1.2"
+    "@patchcab/core" "^1.0.5"
+    ws "^7.4.6"
+
+"@banksean/patchcab-ui@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@banksean/patchcab-ui/-/patchcab-ui-0.1.2.tgz#0231dd62e337f9404e556cc5611e710c287f4ea7"
+  integrity sha512-MJ/xIZN6b1x38NziWfuWh79fu0qqPK/AgjtPqEYodqkGGYvR8Xjc3/96zzbzKAsHjOCxPiqq6K/AIGvHY04utw==
   dependencies:
     "@patchcab/core" "^1.0.5"
     "@tsconfig/svelte" "^1.0.10"
@@ -85,6 +98,7 @@
     svelte "^3.37.0"
     svelte-check "^1.4.0"
     svelte-preprocess "^4.7.2"
+    ws "^7.4.6"
 
 "@choojs/findup@^0.2.0":
   version "0.2.1"
@@ -3120,13 +3134,6 @@ pngquant-bin@^6.0.0:
     execa "^4.0.0"
     logalot "^2.0.0"
 
-polyrhythm-patchcab@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/polyrhythm-patchcab/-/polyrhythm-patchcab-1.0.0.tgz#e1f1fc3f9446ac505b6749d96207ec128ce1845d"
-  integrity sha512-HQhHPuPA8FK95iTHvDKC2SZ9yHFREnR9hEY9JG9YyliYbm12JzNRgFTB8qTK1j3axZhphD46U00HQGeIxP3CBQ==
-  dependencies:
-    "@patchcab/core" "^1.0.5"
-
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
@@ -4260,6 +4267,11 @@ ws@^7.2.3:
   version "7.4.1"
   resolved "https://registry.npmjs.org/ws/-/ws-7.4.1.tgz"
   integrity sha512-pTsP8UAfhy3sk1lSk/O/s4tjD0CRwvMnzvwr4OKGX7ZvqZtUyx4KIJB5JWbkykPoc55tixMGgTNoh3k4FkNGFQ==
+
+ws@^7.4.6:
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
+  integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
 "xtend@>=4.0.0 <4.1.0-0", xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"

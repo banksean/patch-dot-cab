@@ -8,9 +8,10 @@
         "build": "patchcab --build --rack patchcab.json"
     },
     "dependencies": {
-        "@banksean/patchcab-cvsequencer": "^0.0.1",
-        "@banksean/patchcab-midiin": "^0.0.1",
-        "@banksean/patchcab-polyrhythm": "^0.0.1",
+        "@banksean/patchcab-additiveosc": "^0.1.2",
+        "@banksean/patchcab-cvsequencer": "^0.1.2",
+        "@banksean/patchcab-midiin": "^0.1.2",
+        "@banksean/patchcab-polyrhythm": "^0.1.2",
         "@patchcab/core": "1.0.5",
         "@patchcab/modules": "1.0.5",
         "apisauce": "^2.0.1",
